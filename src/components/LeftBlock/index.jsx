@@ -1,6 +1,6 @@
 import LeftBlockData from "../../data/LeftBlockData";
 
-import "./LeftBlock.css";
+import "./LeftBlock.scss";
 
 const LeftBlock = () => {
   return (

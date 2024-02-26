@@ -1,7 +1,7 @@
 import Progress from "../Progress";
 import RightBlockData from "../../data/RightBlockData";
 
-import "./RightBlock.css";
+import "./RightBlock.scss";
 
 const RightBlock = () => {
   return (
@@ -29,10 +29,7 @@ const RightBlock = () => {
                         {j.subtitle.subtext.text}
                       </a>
                     ) : (
-                      <a
-                        className="right__link"
-                        href={j.subtitle.subtext.link}
-                      >
+                      <a className="right__link" href={j.subtitle.subtext.link}>
                         {j.subtitle.subtext.text}
                       </a>
                     )
