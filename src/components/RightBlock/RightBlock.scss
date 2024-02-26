@@ -1,0 +1,41 @@
+.right-block {
+  &__item {
+    margin-top: 20px;
+  }
+}
+
+.right {
+  &__block {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__title-block {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  &__title {
+    font-size: 22px;
+  }
+
+  &__link {
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+    transition: 0.4s;
+
+    &:hover {
+      color: #1b1b9c;
+      letter-spacing: 0.5px;
+    }
+  }
+
+  &__text {
+    font-weight: 400;
+    font-size: 16px;
+  }
+}

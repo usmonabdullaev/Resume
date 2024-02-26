@@ -1,0 +1,72 @@
+@keyframes red-animation {
+  0% {
+    left: 0;
+    opacity: 1;
+    width: 0;
+  }
+
+  5% {
+    width: 10px;
+  }
+
+  90% {
+    width: 10px;
+  }
+
+  100% {
+    left: 100%;
+    opacity: 1;
+    width: 0;
+  }
+}
+
+.progress {
+  height: 12px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  &__bg {
+    height: 100%;
+    background: #00ce0a;
+    z-index: 1;
+  }
+
+  &__bg2 {
+    height: 100%;
+    background: #1b1b9c;
+    z-index: 3;
+  }
+
+  &__red {
+    height: 100%;
+    width: 10px;
+    background: #00ad09;
+    position: absolute;
+    animation: red-animation 4s linear infinite;
+    z-index: 2;
+    opacity: 0;
+
+    &_1 {
+      animation-delay: 0s;
+    }
+
+    &_2 {
+      animation-delay: 0.8s;
+    }
+
+    &_3 {
+      animation-delay: 1.6s;
+    }
+
+    &_4 {
+      animation-delay: 2.4s;
+    }
+
+    &_5 {
+      animation-delay: 3.2s;
+    }
+  }
+}

@@ -1,0 +1,75 @@
+.item {
+  margin-bottom: 40px;
+}
+.item:hover .item__bg {
+  width: 100%;
+}
+.item:hover .item__span {
+  color: #00ce0a;
+  font-weight: 600;
+}
+.item:hover .item__title {
+  color: white;
+}
+.item__title-block {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 4px solid #1b1b9c;
+  position: relative;
+}
+.item__bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, #1b1b9c, #1b1b9c, #00ce0a);
+  z-index: 1;
+  transition: 0.6s;
+}
+.item__span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  color: white;
+  font-size: 34px;
+  width: 26px;
+  height: 36px;
+  transition: 0.4s;
+  background-color: #1b1b9c;
+  z-index: 10;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.item__title {
+  color: #008a07;
+  font-size: 32px;
+  z-index: 10;
+  transition: 0.5s;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.item__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.item__subtitle {
+  font-weight: bold;
+  font-size: 24px;
+}
+.item__date {
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+}
+.item__text {
+  margin-top: 5px;
+  font-size: 22px;
+}
+.item__list {
+  margin-left: 40px;
+}/*# sourceMappingURL=LeftBlock.css.map */
