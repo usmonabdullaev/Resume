@@ -26,6 +26,10 @@
   width: 100px;
   height: 30px;
   background: #1b1b9c;
+
+  @media screen and (max-width: 400px) {
+    display: none;
+  }
 }
 
 .block {
@@ -37,6 +41,10 @@
   @media screen and (max-width: 1199px) {
     flex-direction: column-reverse;
     gap: 10px;
+  }
+
+  @media screen and (max-width: 400px) {
+    padding: 10px;
   }
 }
 
@@ -204,6 +212,11 @@
   align-items: flex-start;
   margin-bottom: 60px;
   user-select: none;
+
+  @media screen and (max-width: 400px) {
+    align-items: center;
+    width: 100%;
+  }
 
   &__firstname {
     font-weight: bold;
