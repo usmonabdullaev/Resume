@@ -22,7 +22,7 @@
 .left-cube {
   position: absolute;
   left: 0;
-  top: 40px;
+  top: 20px;
   width: 100px;
   height: 30px;
   background: #1b1b9c;
@@ -36,6 +36,7 @@
 
   @media screen and (max-width: 1199px) {
     flex-direction: column-reverse;
+    gap: 10px;
   }
 }
 
@@ -210,15 +211,23 @@
     background: linear-gradient(45deg, #1b1b9c, #00ce0a);
     background-clip: text;
     color: transparent;
+    font-family: "Source Code Pro", monospace, sans-serif;
 
     @media screen and (min-width: 1200px) {
       border-right: 3px solid #00ce0a;
       white-space: nowrap;
       overflow: hidden;
-      font-family: "Source Code Pro", monospace;
       color: #1b1b9c;
       animation: animated-text 2s steps(29, end) 1s 1 normal both,
         animated-cursor 600ms steps(29, end) infinite;
+    }
+
+    @media screen and (max-width: 600px) {
+      font-size: 48px;
+    }
+
+    @media screen and (max-width: 450px) {
+      font-size: 32px;
     }
   }
 
@@ -229,15 +238,23 @@
     background: linear-gradient(45deg, #1b1b9c, #00ce0a);
     background-clip: text;
     color: transparent;
+    font-family: "Source Code Pro", monospace, sans-serif;
 
     @media screen and (min-width: 1200px) {
       border-right: 3px solid #1b1b9c;
       white-space: nowrap;
       overflow: hidden;
-      font-family: "Source Code Pro", monospace;
       color: #00ce0a;
       animation: animated-text_2 4s steps(29, end) 3s 1 normal both,
         animated-cursor_2 600ms steps(29, end) infinite;
+    }
+
+    @media screen and (max-width: 600px) {
+      font-size: 52px;
+    }
+
+    @media screen and (max-width: 450px) {
+      font-size: 34px;
     }
   }
 }
