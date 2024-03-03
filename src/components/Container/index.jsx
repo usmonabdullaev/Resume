@@ -20,16 +20,16 @@ const Container = () => {
         <div className="right-block">
           <div className="image-block">
             <div className="image-block__group">
-            <img
-              className="image-block__img"
-              src={ImagePng}
-              alt="Abdullaev Usmon"
-            />
-            <img
-              className="image-block__img image-block__img_clone"
-              src={ImagePng}
-              alt="Abdullaev Usmon"
-            />
+              <img
+                className="image-block__img"
+                src={ImagePng}
+                alt="Abdullaev Usmon"
+              />
+              <img
+                className="image-block__img image-block__img_clone"
+                src={ImagePng}
+                alt="Abdullaev Usmon"
+              />
             </div>
             <div className="title image-block__title">
               <h1 className="title__firstname">Usmon</h1>
