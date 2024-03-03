@@ -35,6 +35,7 @@ const LeftBlockData = [
         text: "",
         date: "",
         list: [
+          "Gravity Studio - https://gravity.studio",
           "BO/BO - https://bobo.tj",
           "МегаФон Таджикистан",
         ],
