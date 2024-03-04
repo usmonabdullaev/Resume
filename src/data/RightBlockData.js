@@ -112,56 +112,6 @@ const RightBlockData = [
     body: [
       {
         subtitle: {
-          text: "+ Vue - Foundation",
-          subtext: {
-            text: "",
-            link: false,
-          },
-          progress: 0,
-        },
-      },
-      {
-        subtitle: {
-          text: "+ TypeScript - Foundation",
-          subtext: {
-            text: "",
-            link: false,
-          },
-          progress: 0,
-        },
-      },
-      {
-        subtitle: {
-          text: "+ Python - Foundation",
-          subtext: {
-            text: "",
-            link: false,
-          },
-          progress: 0,
-        },
-      },
-      {
-        subtitle: {
-          text: "+ Redux Toolkit Query",
-          subtext: {
-            text: "",
-            link: false,
-          },
-          progress: 0,
-        },
-      },
-      {
-        subtitle: {
-          text: "+ React Query",
-          subtext: {
-            text: "",
-            link: false,
-          },
-          progress: 0,
-        },
-      },
-      {
-        subtitle: {
           text: "+ Axios",
           subtext: {
             text: "",
@@ -192,17 +142,7 @@ const RightBlockData = [
       },
       {
         subtitle: {
-          text: "+ Redux / Redux Toolkit",
-          subtext: {
-            text: "",
-            link: false,
-          },
-          progress: 0,
-        },
-      },
-      {
-        subtitle: {
-          text: "+ React Native",
+          text: "+ Redux Toolkit",
           subtext: {
             text: "",
             link: false,

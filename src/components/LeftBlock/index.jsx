@@ -16,7 +16,9 @@ const LeftBlock = () => {
             {i.body.map((j, index) => (
               <div className="item__body" key={index}>
                 <div className="item__header">
-                  <h5 className="item__subtitle">{j.subtitle}</h5>
+                  <h5 className="item__subtitle">
+                    {i.title === "ДОСТИЖЕНИЯ" ? `"${j.subtitle}"` : j.subtitle}
+                  </h5>
                   <b className="item__date">{j.date}</b>
                 </div>
                 <p className="item__text">{j.text}</p>
