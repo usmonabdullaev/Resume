@@ -289,25 +289,16 @@
   }
 
   &__group {
-    position: relative;
-    width: 200px;
-    height: 266.656px;
-
     @media screen and (max-width: 800px) {
       display: none;
     }
   }
 
   &__img {
-    position: absolute;
-    left: 0;
     width: 200px;
     transition: 1s;
-    filter: drop-shadow(10px 5px 10px #00ce0a);
-
-    &_clone {
-      filter: drop-shadow(-10px -5px 10px #1b1b9c);
-    }
+    filter: drop-shadow(10px 5px 10px #00ce0a)
+      drop-shadow(-10px -5px 10px #1b1b9c);
   }
 
   &__title {

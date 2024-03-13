@@ -1,13 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: system-ui, -apple-system, "Roboto", "Open Sans", sans-serif;
+}
+
 html {
   scroll-behavior: smooth;
 }
 
-* {
-  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
-  padding: 0;
-  margin: 0;
-}
-
 a {
   text-decoration: none;
+}
+
+button {
+  border: none;
+  background: none;
+}
+
+li {
+  list-style: none;
 }
