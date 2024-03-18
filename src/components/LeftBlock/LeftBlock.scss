@@ -98,5 +98,9 @@
 
   &__list {
     margin-left: 40px;
+
+    &-item:first-child {
+      color: #008a07;
+    }
   }
 }
