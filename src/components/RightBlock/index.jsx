@@ -1,12 +1,30 @@
+import { useEffect, useState } from "react";
+import axios from "axios";
+
 import Progress from "../Progress";
 import RightBlockData from "../../data/RightBlockData";
 
 import "./RightBlock.scss";
 
 const RightBlock = () => {
+  const [data, setData] = useState([]);
+
+  useEffect(() => {
+    const getData = async () => {
+      try {
+        const response = await axios.get(
+          "https://e4ca4cd30c0b0fd8.mokky.dev/right"
+        );
+        setData(response.data);
+      } catch (err) {
+        setData(RightBlockData);
+      }
+    };
+    getData();
+  }, []);
   return (
     <>
-      {RightBlockData.map((i, index) => (
+      {data.map((i, index) => (
         <div className="item right-block__item" key={index}>
           <div className="item__title-block">
             <div className="item__bg"></div>

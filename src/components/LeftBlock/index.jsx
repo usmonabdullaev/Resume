@@ -1,11 +1,29 @@
+import { useEffect, useState } from "react";
+import axios from "axios";
+
 import LeftBlockData from "../../data/LeftBlockData";
 
 import "./LeftBlock.scss";
 
 const LeftBlock = () => {
+  const [data, setData] = useState([]);
+
+  useEffect(() => {
+    const getData = async () => {
+      try {
+        const response = await axios.get(
+          "https://e4ca4cd30c0b0fd8.mokky.dev/left"
+        );
+        setData(response.data);
+      } catch (err) {
+        setData(LeftBlockData);
+      }
+    };
+    getData();
+  }, []);
   return (
     <>
-      {LeftBlockData.map((i, index) => (
+      {data.map((i, index) => (
         <div key={index}>
           <div className="item">
             <div className="item__title-block">
