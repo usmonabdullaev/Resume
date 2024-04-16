@@ -44,7 +44,7 @@ const Container = () => {
               />
             </div>
             <div className="title image-block__title">
-              <h1 className="title__firstname">Usmon</h1>
+              <h2 className="title__firstname">Usmon</h2>
               <h2 className="title__lastname">
                 <svg viewBox="0 0 1200 300" className="lastname">
                   <symbol id="s-text">
