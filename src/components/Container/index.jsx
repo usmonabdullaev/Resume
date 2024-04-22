@@ -12,7 +12,7 @@ const Container = () => {
       <div className="block">
         <div className="left-block">
           <div className="title left-block__title">
-            <h1 className="title__firstname">Abdullaev Usmon</h1>
+            <h1 className="title__firstname">Usmon</h1>
             <h2 className="title__lastname">
               <svg viewBox="0 0 980 300" className="lastname">
                 <symbol id="s-text">
