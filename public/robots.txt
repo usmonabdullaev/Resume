@@ -10,4 +10,4 @@ User-agent: *
 Allow: /
 Allow: /Abdullaev_Usmon.png
 
-Sitemap: https://resume-app-neon.vercel.app/sitemap.xml
+Sitemap: https://abdullaev-usmon.vercel.app/sitemap.xml
