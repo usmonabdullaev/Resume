@@ -1,10 +1,13 @@
 User-agent: Googlebot
 Allow: /
+Allow: /Abdullaev_Usmon.png
 
 User-agent: Yandex
 Allow: /
+Allow: /Abdullaev_Usmon.png
 
 User-agent: *
 Allow: /
+Allow: /Abdullaev_Usmon.png
 
 Sitemap: https://resume-app-neon.vercel.app/sitemap.xml
