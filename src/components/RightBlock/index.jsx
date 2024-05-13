@@ -22,6 +22,7 @@ const RightBlock = () => {
     };
     getData();
   }, []);
+
   return (
     <>
       {data.map((i, index) => (

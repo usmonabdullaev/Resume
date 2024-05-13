@@ -21,6 +21,7 @@ const LeftBlock = () => {
     };
     getData();
   }, []);
+
   return (
     <>
       {data.map((i, index) => (

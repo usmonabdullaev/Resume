@@ -1,8 +1,6 @@
 import LeftBlock from "../LeftBlock";
 import RightBlock from "../RightBlock";
 
-import imagePng from "../../assets/image.png";
-
 import "./Container.scss";
 
 const Container = () => {
@@ -37,7 +35,7 @@ const Container = () => {
             <div className="image-block__group">
               <img
                 className="image-block__img"
-                src={imagePng}
+                src="/Abdullaev_Usmon.png"
                 alt="Abdullaev Usmon"
                 title="Abdullaev Usmon"
                 onContextMenu={(e) => e.preventDefault()}
