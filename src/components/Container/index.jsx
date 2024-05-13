@@ -39,6 +39,8 @@ const Container = () => {
                 alt="Abdullaev Usmon"
                 title="Abdullaev Usmon"
                 fetchpriority="high"
+                width={200}
+                height={266.66}
                 onContextMenu={(e) => e.preventDefault()}
               />
             </div>
