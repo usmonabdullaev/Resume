@@ -38,6 +38,7 @@ const Container = () => {
                 src="/Abdullaev_Usmon.png"
                 alt="Abdullaev Usmon"
                 title="Abdullaev Usmon"
+                fetchpriority="high"
                 onContextMenu={(e) => e.preventDefault()}
               />
             </div>
