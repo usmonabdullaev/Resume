@@ -35,11 +35,10 @@ const Container = () => {
             <div className="image-block__group">
               <img
                 className="image-block__img"
-                src="/Abdullaev_Usmon.png"
+                src="/image6.png"
                 alt="Abdullaev Usmon"
                 title="Abdullaev Usmon"
                 fetchpriority="high"
-                width={200}
                 height={266.66}
                 onContextMenu={(e) => e.preventDefault()}
               />

@@ -283,7 +283,9 @@
   &__img {
     user-select: none;
     pointer-events: none;
-    width: 200px;
+    object-fit: contain;
+    border-radius: 4px;
+    // width: 266.66px;
     transition: 1s;
     filter: drop-shadow(10px 5px 10px #00ce0a)
       drop-shadow(-10px -5px 10px #1b1b9c);

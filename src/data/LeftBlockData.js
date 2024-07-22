@@ -36,8 +36,7 @@ const LeftBlockData = [
         date: "",
         list: [
           "Gravity Studio - https://gravity.studio",
-          "BO/BO - https://bobo.tj",
-          "МегаФон Таджикистан",
+          "BO/BO - https://bobo.tj"
         ],
       },
     ],
@@ -48,7 +47,7 @@ const LeftBlockData = [
       {
         subtitle: "Олимпиадаи фаннӣ",
         text: "Технологияи иттилоотӣ / 3-ое место",
-        date: "-",
+        date: "10/03/2024",
         list: [],
       },
       {
