@@ -35,7 +35,7 @@ const Container = () => {
             <div className="image-block__group">
               <img
                 className="image-block__img"
-                src="/image6.png"
+                src="/Abdullaev_Usmon.png"
                 alt="Abdullaev Usmon"
                 title="Abdullaev Usmon"
                 fetchpriority="high"
