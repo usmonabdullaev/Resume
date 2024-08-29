@@ -84,27 +84,7 @@ const RightBlockData = [
           },
           progress: 8,
         },
-      },
-      {
-        subtitle: {
-          text: "+ Uzbek",
-          subtext: {
-            text: "",
-            link: false,
-          },
-          progress: 10,
-        },
-      },
-      {
-        subtitle: {
-          text: "+ Tajik",
-          subtext: {
-            text: "",
-            link: false,
-          },
-          progress: 10,
-        },
-      },
+      }
     ],
   },
   {
