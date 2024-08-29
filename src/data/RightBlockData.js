@@ -6,8 +6,8 @@ const RightBlockData = [
         subtitle: {
           text: "+ ТЕЛЕФОН:",
           subtext: {
-            text: "+ 992 88 742-29-29",
-            link: "tel:+992887422929",
+            text: "+7 (909) 276-74-00",
+            link: "tel:+79092767400",
           },
           progress: 0,
         },
