@@ -15,7 +15,7 @@ const Container = () => {
               <svg viewBox="0 0 980 300" className="lastname">
                 <symbol id="s-text">
                   <text textAnchor="middle" x="50%" y="60%">
-                    Abdullaev
+                    Abdulloev
                   </text>
                 </symbol>
                 <g className="g-ants">
@@ -37,7 +37,7 @@ const Container = () => {
                 className="image-block__img"
                 src="/Abdullaev_Usmon.png"
                 alt="Abdullaev Usmon"
-                title="Abdullaev Usmon"
+                title="Abdulloev Usmon"
                 fetchpriority="high"
                 height={266.66}
                 onContextMenu={(e) => e.preventDefault()}
@@ -49,7 +49,7 @@ const Container = () => {
                 <svg viewBox="0 0 1200 300" className="lastname">
                   <symbol id="s-text">
                     <text textAnchor="middle" x="50%" y="60%">
-                      Abdullaev
+                      Abdulloev
                     </text>
                   </symbol>
                   <g className="g-ants">

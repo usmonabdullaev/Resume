@@ -6,8 +6,8 @@ const RightBlockData = [
         subtitle: {
           text: "+ ТЕЛЕФОН:",
           subtext: {
-            text: "+ 992 88 742-29-29",
-            link: "tel:+992887422929",
+            text: "+7 922 490-37-79",
+            link: "tel:+79224903779",
           },
           progress: 0,
         },
@@ -26,7 +26,7 @@ const RightBlockData = [
         subtitle: {
           text: "+ АДРЕС:",
           subtext: {
-            text: "Душанбе / Турсунзаде / Шахринав",
+            text: "Россия / Тюменская обл. / Тюмень",
             link: false,
           },
           progress: 0,
@@ -83,26 +83,6 @@ const RightBlockData = [
             link: false,
           },
           progress: 8,
-        },
-      },
-      {
-        subtitle: {
-          text: "+ Uzbek",
-          subtext: {
-            text: "",
-            link: false,
-          },
-          progress: 10,
-        },
-      },
-      {
-        subtitle: {
-          text: "+ Tajik",
-          subtext: {
-            text: "",
-            link: false,
-          },
-          progress: 10,
         },
       },
     ],
