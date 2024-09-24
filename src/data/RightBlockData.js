@@ -6,8 +6,8 @@ const RightBlockData = [
         subtitle: {
           text: "+ ТЕЛЕФОН:",
           subtext: {
-            text: "+7 922 490-37-79",
-            link: "tel:+79224903779",
+            text: "+ 992 88 742-29-29",
+            link: "tel:+992887422929",
           },
           progress: 0,
         },
@@ -83,6 +83,26 @@ const RightBlockData = [
             link: false,
           },
           progress: 8,
+        },
+      },
+      {
+        subtitle: {
+          text: "+ Uzbek",
+          subtext: {
+            text: "",
+            link: false,
+          },
+          progress: 10,
+        },
+      },
+      {
+        subtitle: {
+          text: "+ Tajik",
+          subtext: {
+            text: "",
+            link: false,
+          },
+          progress: 10,
         },
       },
     ],
